@@ -1,0 +1,15 @@
+MySQL
+mysql -u [username] -p
+
+create user 'dbusername'@'localhost' identified by 'password';
+
+TAI
+
+grant usage on *.* to username@localhost identified by 'password';
+
+grant all privileges on dbname.* to username@localhost;
+
+use dbname;
+
+exit
+

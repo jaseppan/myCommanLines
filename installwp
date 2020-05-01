@@ -1,0 +1,1 @@
+sudo wget http://wordpress.org/latest.tar.gz &&  sudo tar xfz latest.tar.gz && sudo mv wordpress/* ./ && sudo rmdir wordpress && sudo rm -f latest.tar.gz
